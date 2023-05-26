@@ -70,7 +70,7 @@ const Paginationform = () => {
            )
           )}
           <li>
-            <button onClick={nextbtn} className="page-link"  disabled = {currentPage == totalPages}>
+            <button onClick={nextbtn} className="page-link"  disabled = {currentPage === totalPages}>
               nxt btn
             </button>
           </li>
