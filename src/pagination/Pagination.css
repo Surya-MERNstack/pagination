@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  /* Pagination styling */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .page-item {
+    margin: 0 5px;
+  }
+
+  .page-link {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .page-link:hover {
+    background-color: #f2f2f2;
+  }
+
+  .page-item.active .page-link {
+    background-color: #ddd;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .page-link:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
