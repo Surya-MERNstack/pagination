@@ -53,7 +53,7 @@ const Paginationform = () => {
               <td>{data.thumbnailUrl}</td>
             </tr>
           </tbody>
-        ))}
+         ))} 
       </table>
       <nav>
         <ul  className="pagination">
